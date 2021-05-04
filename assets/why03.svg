@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>unlimited</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="unlimited" fill-rule="nonzero">
+            <path d="M5.604,23.268 C2.18116814,29.6104323 0.392949936,36.705909 0.401,43.913 C0.401,67.943 19.882,87.425 43.913,87.425 C67.943,87.425 87.425,67.944 87.425,43.913 C87.425,19.883 67.944,0.401 43.913,0.401 C37.286,0.401 31.913,5.774 31.913,12.401 C31.913,19.029 37.286,24.401 43.913,24.401 C54.689,24.401 63.425,33.137 63.425,43.913 C63.425,54.689 54.689,63.425 43.913,63.425 C33.137,63.425 24.401,54.689 24.401,43.913 C24.401,40.625 25.206,37.48 26.724,34.667 C29.872,28.835 27.696,21.555 21.864,18.407 C16.032,15.259 8.752,17.436 5.604,23.267 L5.604,23.268 Z" id="Shape" fill="#C7E3FC"></path>
+            <circle id="Oval" fill="#8EC6FA" transform="translate(42.905000, 12.312000) scale(-1, 1) translate(-42.905000, -12.312000) " cx="42.905" cy="12.312" r="11.905"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,9 +1,146 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+/* =============================================================================
+    SUMMARY
+
+    Breakpoint: 0 => 767 / 768+
+
+    General styling
+
+    Navbar
+
+    Simple_plans_section
+    Trustpilot_section
+    Why_choose_smarti_section
+    Group_plan_section
+    Get_money_back_section
+    Faq_section
+    Awards_section
+
+    Footer
+
+============================================================================== */
+
+/* =========================================================================================
+    General styling
+========================================================================================= */
+@font-face {
+    font-family: Kollektif;
+    src: url('/fonts/Kollektif.woff') format('woff'),
+         url('/fonts/Kollektif.ttf') format('truetype');
+    font-display: fallback;
   }
 
+  @font-face {
+    font-family: Kollektif;
+    font-weight: bold;
+    src: url('/fonts/Kollektif-Bold.woff') format('woff'),
+         url('/fonts/Kollektif-Bold.ttf') format('truetype');
+    font-display: fallback;
+  }
 
-  
+* {
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Kollektif';
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border: 1px solid red;
+    background: grey;
+    width: 50px;
+    max-height: 200px;
+}
+:root {
+    --gray_one: #424449;
+    --gray_two: #333539;
+    --yellow: #FFD67C;
+    --blue: #B3CDE7;
+    --green: #CDDF99;
+    --orange: #FF9569;
+    --turquoize: #92E9F6;
+    --turquoize_text: #8ED6C9;
+    --violet: #B8AEF1;
+}
+
+/* =========================================================================================
+    Navbar
+========================================================================================= */
+#navbar_container {
+    height: 5vh;
+    background: var(--gray_two);
+    
+}
+
+/* =========================================================================================
+    Simple_plans_section
+========================================================================================= */
+#simple_plan_section {
+    background: var(--gray_one);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Trustpilot_section
+========================================================================================= */
+#trustpilot_section {
+    background: var(--gray_two);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Why_choose_smarti_section
+========================================================================================= */
+#why_choose_smarti_section {
+    background: var(--gray_one);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Group_plan_section
+========================================================================================= */
+#group_plan_section {
+    background: var(--gray_two);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Get_money_back_section
+========================================================================================= */
+#get_money_back_section {
+    background: var(--gray_one);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Faq_section
+========================================================================================= */
+#faq_section {
+    background: var(--gray_one);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Awards_section
+========================================================================================= */
+#awards_section {
+    background: var(--gray_one);
+    min-height: 10vh;
+}
+
+/* =========================================================================================
+    Footer
+========================================================================================= */
+#footer_container {
+    background: var(--gray_two);
+    min-height: 10vh;
+}
+
+
+
+
