@@ -1,13 +1,17 @@
 /* =============================================================================
     SUMMARY
 
-    Breakpoint: 0 => 767 / 768+
+    Breakpoint: 767- / 768 => 980 / 980+
 
     General styling
 
     Navbar
 
     Simple_plans_section
+        Hero banner
+        App ribbon
+        Plans cards
+        All plans
     Trustpilot_section
     Why_choose_smarti_section
     Group_plan_section
@@ -43,8 +47,28 @@
     font-family: 'Kollektif';
     margin: 0;
     padding: 0;
+    color: white;
 }
 
+.section {
+    outline: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_width {
+    width: 940px;
+    outline: 1px solid magenta;
+    
+}
+h2 {
+    font-size: 46px;
+}
+h3 {
+    font-size: 34px;
+}
 a, a:visited {
     text-decoration: none;
     color: white;
@@ -59,6 +83,7 @@ img {
 :root {
     --gray_one: #424449;
     --gray_two: #333539;
+    --gray_three: #56585C;
     --yellow: #FFD67C;
     --blue: #B3CDE7;
     --green: #CDDF99;
@@ -72,17 +97,110 @@ img {
     Navbar
 ========================================================================================= */
 #navbar_container {
-    height: 5vh;
+    height: 7vh;
     background: var(--gray_two);
-    
+}
+#navbar_inner {
+    display: flex;
+}
+
+#navbar_logo_link {
+    outline: 1px solid chartreuse;
+}
+#logo_top {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#logo_bottom {
+    font-size: 0.65rem;
+    color: var(--turquoize_text);
+}
+
+#sub_nav {
+    outline: 1px solid chartreuse;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#nav_links {
+    outline: 1px solid chartreuse;
+    display: flex;
+}
+#nav_links > a {
+    padding: 20px;
+}
+
+#user_links {
+    outline: 1px solid chartreuse;
+}
+#login_smiley {
+    width: 17px;
 }
 
 /* =========================================================================================
     Simple_plans_section
 ========================================================================================= */
-#simple_plan_section {
+#simple_plans_section {
     background: var(--gray_one);
     min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hero_banner {
+    background: var(--gray_two);
+    min-height: 10vh;
+    margin: 5vh 0vh;
+}
+#app_ribbon {
+    background: var(--gray_two);
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+#our_app {
+    display: flex;
+    align-items: center;
+}
+#plans {
+    background: var(--gray_two);
+    min-height: 10vh;
+    margin-bottom: 5vh;
+}
+
+#plans_heading {
+    display: flex;
+}
+#coverage_checker {
+    display: flex;
+}
+#plans_cards {
+    display: flex;
+}
+.plan_card {
+    outline: 1px solid blue;
+}
+
+#all_plans {
+    margin-top: 5vh;
+}
+#all_plans_content {
+    background: var(--gray_three);
+}
+#include_list {
+    display: flex;
+}
+#wifi_banner {
+    display: flex;
+    background: var(--gray_one);
+}
+#wifi_all_plans {
+    display: flex;
+}
+#wifi_learn_more {
+    display: flex;
 }
 
 /* =========================================================================================
@@ -91,6 +209,18 @@ img {
 #trustpilot_section {
     background: var(--gray_two);
     min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+#trust_left {
+    outline: 1px solid chartreuse;
+}
+#trust_right {
+    outline: 1px solid chartreuse;
+}
+#trust_reviews {
+    outline: 1px solid chartreuse;
+    display: flex;
 }
 
 /* =========================================================================================
@@ -99,6 +229,13 @@ img {
 #why_choose_smarti_section {
     background: var(--gray_one);
     min-height: 10vh;
+}
+#why_choose_cards {
+    display: flex;
+}
+.why_choose_card {
+    outline: 1px solid blue;
+    background: #56585C;
 }
 
 /* =========================================================================================
@@ -116,6 +253,15 @@ img {
     background: var(--gray_one);
     min-height: 10vh;
 }
+#text_blue {
+    color: var(--turquoize_text);
+}
+#text_yellow {
+    color: var(--yellow);
+}
+#money_back_button {
+    background: var(--turquoize_text);
+}
 
 /* =========================================================================================
     Faq_section
@@ -123,6 +269,13 @@ img {
 #faq_section {
     background: var(--gray_one);
     min-height: 10vh;
+}
+#questions_container {
+    display: flex;
+}
+.question > button {
+    background: var(--gray_one);
+    color: var(--turquoize_text);
 }
 
 /* =========================================================================================
@@ -139,6 +292,12 @@ img {
 #footer_container {
     background: var(--gray_two);
     min-height: 10vh;
+}
+#footer_inner {
+    display: flex;
+}
+#footer_social {
+    display: flex;
 }
 
 

@@ -11,78 +11,352 @@
     <meta name="description" content="Reproduction of the Smarty.co.uk landing page."/>
 </head>
 <body>
-    <!-- <h1>Hello World</h1> -->
-    <nav id="navbar_container">
-        <div class="navbar_inner">
+    <!-- Navbar ------------------------------------------------------------------------------------------------ -->
+    <nav id="navbar_container" class="section">
+        <div id="navbar_inner" class="content_width">
             <a href="" class="logo" id="navbar_logo_link">
                 <div id="logo_top">SMARTY</div>
                 <div id="logo_bottom">Simple, honest mobile</div>
             </a>
             <!-- <button class="burger_menu"></button> -->
             <div id="sub_nav">
-                <div id="links_container">
-                    <div id="user_links">
-                        <a href="" id="login_link"><img src="assets/smiley.svg" alt="">Log in</a>
-                        <a href="" id="activate_link">Activate SIM</a>
-                    </div>
-                    <div id="nav_links">
-                        <a href="" id="about_link"></a>
-                        <a href="" id="free_month_link"></a>
-                        <a href="" id="group_plan_link"></a>
-                    </div>
+                <div id="nav_links">
+                    <a href="" id="about_link">About</a>
+                    <a href="" id="free_month_link">Get a free month</a>
+                    <a href="" id="group_plan_link">Group plans</a>
+                </div>
+                <div id="user_links">
+                    <a href="" id="login_link"><img src="assets/smiley.svg" alt="" id="login_smiley">Log in</a>
+                    <a href="" id="activate_link">Activate SIM</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <!-- Main content --------------------------------------------------------------------------------------------- -->
     <main id="main_container">
-        <div id="simple_plans_section">
-            <div id="hero_banner"></div>
-            <div id="app_ribbon"></div>
-            <div id="plans"></div>
+        <!-- Simple plans section ------------------------------------------------------------------------------- -->
+        <div id="simple_plans_section" class="section">
+            <div id="hero_banner" class="content_width">
+                <div>
+                    <h3>Get more for your money</h3>
+                    <div>
+                        <div>Great coverage</div>
+                        <div>1 month contract</div>
+                        <div>Unlimited calls and texts</div>
+                    </div>
+                    <div>
+                        <div>View all plans</div>
+                        <div><img src="assets/right-arrow.png" alt=""></div>
+                    </div>
+                </div>
+                <div><img src="assets/more-all-plans.png" alt=""></div>
+            </div>
+
+            <!-- App ribbon -------------------------------------------------------- -->
+            <div id="app_ribbon" class="content_width">
+                <div id="our_app">
+                    <div><img src="assets/smiley.svg" alt=""></div>
+                    <div>Our app is coming soon</div>
+                    <div><img src="assets/smartphone_blue.svg" alt=""></div>
+                </div>
+                <div>Find out more</div>
+            </div>
+
+            <!-- Plans -------------------------------------------------------------------- -->
+            <div id="plans" class="content_width">
+                <!-- Plans cards ------------------------------------------------------------ -->
+                <div id="plans_heading">
+                    <h3 id="plans_title">All the data you need for less</h3>
+                    <div id="coverage_checker">
+                        <a href="">Check your coverage,</a><p>powered by</p><img src="assets/threeLogoUrl.svg" alt="">
+                    </div>
+                </div>
+
+                <div id="plans_cards">
+                    <div class="plan_card">
+                        <div>
+                            <div>4GB</div>
+                            <div>£6</div>
+                        </div>
+                        <div>View plan</div>
+                    </div>
+                    <div class="plan_card">
+                        <div>
+                            <div>8GB</div>
+                            <div>£7</div>
+                        </div>
+                        <div>View plan</div>
+                    </div>
+                    <div class="plan_card">
+                        <div>
+                            <div>12GB</div>
+                            <div>£8</div>
+                        </div>
+                        <div>View plan</div>
+                    </div>
+                    <div class="plan_card">
+                        <div>
+                            <div>30GB</div>
+                            <div>£10</div>
+                        </div>
+                        <div>View plan</div>
+                    </div>
+                    <div class="plan_card">
+                        <div>
+                            <div>50GB</div>
+                            <div>£15</div>
+                        </div>
+                        <div>View plan</div>
+                    </div>
+                    <div class="plan_card">
+                        <div>
+                            <div>Unlimited</div>
+                            <div>£20</div>
+                        </div>
+                        <div>View plan</div>
+                    </div>
+                </div>
+
+                <!-- All plans ------------------------------------------------------------- -->
+                <div id="all_plans" class="content_width">
+                    <h3 id="all_plans_heading">All plans include</h3>
+                    <div id="all_plans_content">
+                        <div id="include_list">
+                            <div class="include_list_item"><img src="assets/why04.svg" alt="">1 month plan, cancel anytime</div>
+                            <div class="include_list_item"><img src="assets/why04.svg" alt="">Unlimited calls & texts</div>
+                            <div class="include_list_item"><img src="assets/why04.svg" alt="">Unrestricted tethering in the UK</div>
+                            <div class="include_list_item"><img src="assets/why04.svg" alt="">No credit check</div>
+                            <div class="include_list_item"><img src="assets/why04.svg" alt="">Fast 4G & 3G data</div>
+                            <div class="include_list_item"><img src="assets/why04.svg" alt="">No speed cap</div>
+                        </div>
+                        <div id="wifi_banner">
+                            <div id="wifi_all_plans">
+                                <div><img src="assets/wifi.svg" alt="">All plans include WiFi Calling to supercharge your signal</div>
+                            </div>
+                            <div id="wifi_learn_more"><a href="">Learn more</a></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
         
-        <div id="trustpilot_section"></div>
+        <!-- Trustpilot section --------------------------------------------------------------------------------- -->
+        <div id="trustpilot_section" class="section">
+            <div id="trustpilot" class="content_width">
+                <div id="trust_left">
+                    <div>Great</div>
+                    <div><img src="" alt=""></div>
+                    <div>
+                        <p>Based on</p><a href="">18606 reviews</a>
+                    </div>
+                    <div><img src="" alt="">Trustpilot</div>
+                </div>
+                <div id="trust_right">
+                    <div id="trust_reviews">
+                        <img src="" alt="previous_arrow">
+                        <div class="review"></div>
+                        <div class="review"></div>
+                        <img src="" alt="next_arrow">
+                    </div>
+                    <p>Showing our favorite reviews</p>
+                </div>
+            </div>
+        </div>
 
-        <div id="why_choose_smarti_section"></div>
+        <!-- Why choose Smarti section --------------------------------------------------------------------------------- -->
+        <div id="why_choose_smarti_section" class="section">
+            <div id="why_choose_content" class="content_width">
+                <div id="why_choose_heading">
+                    <h2>Why choose SMARTY?</h2>
+                    <p>Let's keep it simple</p>
+                </div>
+                <div id="why_choose_cards">
+                    <div class="why_choose_card">
+                        <img src="assets/why01.svg" alt="">
+                        <div>Commitment- free SIM plans</div>
+                        <p>1 month plans. No contracts, no credit checks and no surprises at the end of the month. Cancel or change plans anytime. Pay in advance and enjoy the flexibility.</p>
+                    </div>
+                    <div class="why_choose_card">
+                        <img src="assets/why02.svg" alt="">
+                        <div>Add-ons that never expire</div>
+                        <p>If you run out of data, add-ons are £1 per GB - the same as it costs on our Data discount plans. Buy them from your dashboard and keep them until you use every MB.</p>
+                    </div>
+                    <div class="why_choose_card">
+                        <img src="assets/why03.svg" alt="">
+                        <div>Truly unlimited calls & texts</div>
+                        <p>To standard UK landlines and mobiles, and roaming within EU countries. Call and text your friends and family as much as you want. No catch.</p>
+                    </div>
+                    <div class="why_choose_card">
+                        <img src="assets/why04.svg" alt="">
+                        <div>Keep your number</div>
+                        <p>Simply text 'PAC' to 65075 to get a code valid for 30 days. We’ll walk you through steps to enter this code to transfer the phone number you want to keep.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div id="group_plan_section"></div>
+        <!-- Group plan section --------------------------------------------------------------------------------- -->
+        <div id="group_plan_section" class="section">
+            <div id="group_plan_content" class="content_width">
+                <div id="group_plan_left">
+                    <img src="assets/party.svg" alt="">
+                    <button></button>
+                </div>
+                <div id="group_plan_right">
+                    <h2>Save 10% on every SIM with a Group plan</h2>
+                    <div>
+                        <p>Whether you’re bringing your family accounts together or adding an extra SIM for your tablet, get a SMARTY Group plan and start saving.</p>
+                        <p><img src="assets/why04.svg" alt="">Manage usage and payments for just 2 plans or up to a total of 8.</p>
+                        <p><img src="assets/why04.svg" alt="">Save money, time, and stay flexible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div id="get_money_back_section"></div>
+        <!-- Get money back section ----------------------------------------------------------------------------- -->
+        <div id="get_money_back_section" class="section">
+            <div id="money_back_content" class="content_width">
+                <div>
+                    <h2>Get money back with our data discount plans</h2>
+                    <p>Check out our exclusive <span id="text_blue">data discount plans</span> and get money back for unused data at the end of <span id="text_yellow">every</span> month.</p>
+                </div>
+                <div>
+                    <img src="assets/money_back.png" alt="">
+                    <button id="money_back_button">View our data discount plans</button>
+                </div>
+            </div>
+        </div>
 
-        <div id="faq_section"></div>
+        <!-- FAQ section -------------------------------------------------------------------------------------- -->
+        <div id="faq_section" class="section">
+            <div id="faq_content" class="content_width">
+                <h2>FAQs</h2>
+                <div id="questions_container">
+                    <div id="questions_left">
+                        <div class="question">
+                            <button>How's the coverage? <img src="" alt="question_arrow down"></button>
+                            <p>SMARTY connects to 4G and 3G network wherever it can. SMARTY is not compatible with 2G handsets. <a href="">Check our coverage</a></p>
+                        </div>
+                        <div class="question">
+                            <button>How can I keep my number? <img src="" alt="question_arrow down"></button>
+                            <p>Simply contact your previous network provider or text 'PAC' to 65075 to get a code valid for 30 days. This won’t disrupt your service. We’ll walk you through steps to enter this code to transfer the phone number you want to keep. <a href="">Read more about switching</a></p>
+                        </div>
+                        <div class="question">
+                            <button>How much do add-ons cost? <img src="" alt="question_arrow down"></button>
+                            <p>If you run out of data, data add-ons are £1 per GB - the same as it costs on our Data discount plans. To call an 084 or 087 number you can add an "Out of plan" add-on in £5 increments. Add-ons don’t expire. <a href="">Read more about add-ons</a></p>
+                        </div>
+                        <div class="question">
+                            <button>Can I tether while roaming? <img src="" alt="question_arrow down"></button>
+                            <p>Yes. If you’re travelling in the EU, everything works like home. Data comes out of your monthly allowance or data add-ons. Please see our price guide for information on our Fair Use Policy. <a href="">Outside the EU, you need to add an “Out of plan” add-on. See the prices where you’re going.</a></p>
+                        </div>
+                        <div class="question">
+                            <button>Do all plans get money back? <img src="" alt="question_arrow down"></button>
+                            <p>No. Only Data Discount plans get money back for unused data. Look for the “Money back” icon on Data Discount plans. </p>
+                        </div>
+                    </div>
+                    <div id="questions_right">
+                        <div class="question">
+                            <button>How can I contact you? <img src="" alt="question_arrow down"></button>
+                            <p><a href="">Check out our contact us page</a> for further information.</p>
+                        </div>
+                        <div class="question">
+                            <button>How does calling abroad work? <img src="" alt="question_arrow down"></button>
+                            <p>You can now use SMARTY to make calls to other countries from the UK. International calls and texts are taken from your “Out of plan” add-ons. <a href="">See the prices where you want to call</a></p>
+                        </div>
+                        <div class="question">
+                            <button>Can I use my plan when I travel? <img src="" alt="question_arrow down"></button>
+                            <p>You can now use your SMARTY plan abroad. In the EU it works like normal up to 20GB. Outside the EU, or to call internationally, you need to add an “Out of plan” add-on. <a href="">See the prices where you're going</a></p>
+                        </div>
+                        <div class="question">
+                            <button>How can I leave SMARTY? <img src="" alt="question_arrow down"></button>
+                            <p>Don’t forget, you can always <a href="">pause your plan temporarily</a> if you’re unsure about leaving. Here are details on <a href="">how to leave SMARTY</a> . We’re sad to see you go. If there’s anything we can do to help or learn from, please don’t hesitate to contact our customer support team.</p>
+                        </div>
+                        <div class="question">
+                            <button>Can I read more on pricing? <img src="" alt="question_arrow down"></button>
+                            <p>Everything you need to know about our: prices, discounts, offers and add-ons if you’re a customer of ours. <a href="">See our price guide</a></p>
+                        </div>
+                    </div>
+                </div>
+                <a>Have more questions?</a>
+            </div>
+        </div>
 
-        <div id="awards_section"></div>
+        <!-- Awards section --------------------------------------------------------------------------------- -->
+        <div id="awards_section" class="section">
+            <div id="awards_content" class="content_width">
+                <h2>Awards</h2>
+                <div id="awards_container">
+                    <img src="assets/uswitchBestValue2021.svg" alt="">
+                    <img src="assets/uswitchBestValue2020.png" alt="">
+                    <img src="assets/uswitch-mobile-awards-best-value-sim-only.png" alt="">
+                    <img src="assets/uswitch-mobile-award-best-payg-network.png" alt="">
+                </div>
+                <h2>Featured in</h2>
+                <div id="featured_in_container">
+                    <img src="assets/financial times.svg" alt="">
+                    <img src="assets/techradar.svg" alt="">
+                    <img src="assets/uswitch.svg" alt="">
+                    <img src="assets/huffingtonPost.svg" alt="">
+                    <img src="assets/shortlist.svg" alt="">
+                </div>
+            </div>
+        </div>
 
     </main>
+                        
+    <!-- Footer ---------------------------------------------------------------------------------------------------- -->
+    <footer id="footer_container" class="section">
+        <div id="footer_inner" class="content_width">
+            <div>
+                <a href="">Terms and conditions</a>
+                <a href="">Privacy policy (PDF)</a>
+                <a href="">Accessibility</a>
+                <a href="">Vulnerable situations policy (PDF)</a>
+                <a href="">Cookies policy (PDF)</a>
+                <a href="">Complaints</a>
+            </div>
+            <div>
+                <a href="">SIM only</a>
+                <a href="">Pay as you go</a>
+                <a href="">Data SIM</a>
+                <a href="">No credit check</a>
+                <a href="">Unlimited SIM</a>
+                <a href="">Student SIM</a>
+                <a href="">Data Rollover</a>
+                <a href="">5G</a>
+            </div>
+            <div>
+                <a href="">Support</a>
+                <a href="">Contact us</a>
+                <a href="">App</a>
+                <a href="">Price guide (PDF)</a>
+                <a href="">Roaming & International</a>
+                <a href="">Blog</a>
+                <a href="">three.co.uk</a>
+            </div>
+            <div>
+                <button>Activate SIM</button>
+            </div>
+        </div>
 
-    <footer id="footer_container">
-        <div id="footer_inner"></div>
-        <div id="footer_social"></div>
-        <div id="footer_terms"></div>
+        <div id="footer_social" class="content_width">
+            <div>Follow SMARTY</div>
+            <a><img src="" alt="facebook link"></a>
+            <a><img src="" alt="twitter link"></a>
+        </div>
+
+        <div id="footer_terms" class="content_width">
+            <p>© 2021 All rights reserved. SMARTY.</p>
+            <a>smarty.co.uk</a>
+            <p>SMARTY is a service that’s just for consumers and is only intended for personal use.</p>
+            <p>SMARTY is a trading name of Hutchison 3G UK Limited</p>
+            <p>Registered office: Hutchison 3G UK Limited, Great Brighams Mead, Vastern Road, Reading, Berkshire, RG1 8DJ</p>
+            <p>Registered in England & Wales Number 03885486</p>
+            <p>VAT Registration Number 760 7292 22</p>
+        </div>
     </footer>
-
-    <!-- 
-    <img src="assets/more-all-plans.png" alt="">
-    <img src="assets/party.svg" alt="">
-    <img src="assets/smiley.svg" alt="">
-    <img src="assets/threeLogoUrl-2dd89f937c88cebd7cc6fff01178a19f.svg" alt="">
-    <img src="assets/why01.svg" alt="">
-    <img src="assets/why02.svg" alt="">
-    <img src="assets/why03.svg" alt="">
-    <img src="assets/why04.svg" alt="">
-    <img src="assets/wifi.svg" alt="">
-    <img src="assets/financial times.svg" alt="">
-    <img src="assets/huffingtonPost-3bde6a5acbe0de90855a553ffe4c27d4.svg" alt="">
-    <img src="assets/money_back.png" alt="">
-    <img src="assets/shortlist.svg" alt="">
-    <img src="assets/techradar.svg" alt="">
-    <img src="assets/uswitch-mobile-awards-best-value-sim-only.png" alt="">
-    <img src="assets/uswitch.svg" alt="">
-    <img src="assets/uswitchBestValue2021-e7be9d02cf6ac87aca50016bcfafde52.svg" alt="">
-    <img src="assets/uswitchBestValue2020-409f11c573c812231f4887397e17393e.png" alt="">
-    <img src="assets/uswitch-mobile-award-best-payg-network.png" alt="">
-     -->
 
 </body>
 </html>
