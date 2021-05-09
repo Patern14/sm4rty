@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smarti</title>
+    <title>Sm4rty</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>  <!-- Defer -->
     <link rel="" type="image/jpg" href=""/>
@@ -15,7 +15,7 @@
     <nav id="navbar_container" class="section">
         <div id="navbar_inner" class="content_width">
             <a href="" class="logo" id="navbar_logo_link">
-                <div id="logo_top">SMARTY</div>
+                <div id="logo_top">SM4RTY</div>
                 <div id="logo_bottom">Simple, honest mobile</div>
             </a>
             <!-- <button class="burger_menu"></button> -->
@@ -142,7 +142,7 @@
                         </div>
                         <div id="wifi_banner">
                             <div id="wifi_all_plans">
-                                <p><img src="assets/wifi.svg" alt="">All plans include WiFi Calling to supercharge your signal</p>
+                                <img src="assets/wifi.svg" alt=""><p>All plans include WiFi Calling to supercharge your signal</p>
                             </div>
                             <div id="wifi_learn_more"><a href="">Learn more</a></div>
                         </div>
@@ -156,52 +156,68 @@
         <div id="trustpilot_section" class="section">
             <div id="trustpilot" class="content_width">
                 <div id="trust_left">
-                    <p>Great</p>
-                    <div><img src="" alt=""></div>
-                    <div>
-                        <p>Based on</p><a href="">18606 reviews</a>
-                    </div>
-                    <p><img src="" alt="">Trustpilot</p>
+                    <h4 id="trust_h">Great</h4>
+                    <img src="assets/trustpilot/stars-4.svg" alt="" id="trust_img">
+                    <p>Based on <a href="">18606 reviews</a></p>
+                    <img src="assets/trustpilot/logo-white.svg" alt="" id="trust_logo">
                 </div>
                 <div id="trust_right">
-                    <div id="trust_reviews">
-                        <img src="assets/left.png" alt="previous_arrow">
-                        <div class="review"></div>
-                        <div class="review"></div>
-                        <img src="assets/right.png" alt="next_arrow">
+                    <div id="trust_reviews_container">
+                        <img src="assets/left.png" alt="previous_arrow" class="review_arrows">
+                        <div id="reviews">
+                            <div class="review">
+                                <div class="review_content">
+                                    <img src="assets/trustpilot/stars-5.svg" alt="" class="trust_review_img">
+                                    <p class="review_title">Very good service</p>
+                                    <p class="review_text">Very good service</p>
+                                    <p class="review_name">Helene Arkell</p>
+                                </div>
+                                <p class="review_date">3 October</p>
+                            </div>
+                            <div class="review">
+                                <div class="review_content">
+                                    <img src="assets/trustpilot/stars-5.svg" alt="" class="trust_review_img">
+                                    <p class="review_title">verry good</p>
+                                    <p class="review_text">verry good i do it well</p>
+                                    <p class="review_name">lynn sanderson</p>
+                                </div>
+                                <p class="review_date">3 October</p>
+                            </div>
+                        </div>
+                        <img src="assets/right.png" alt="next_arrow" class="review_arrows">
                     </div>
-                    <p>Showing our favorite reviews</p>
+                    <p id="trust_favorites">Showing our favorite reviews</p>
                 </div>
             </div>
         </div>
 
-        <!-- Why choose Smarti section --------------------------------------------------------------------------------- -->
-        <div id="why_choose_smarti_section" class="section">
+        <!-- Why choose Sm4rty section --------------------------------------------------------------------------------- -->
+        <div id="why_choose_sm4rty_section" class="section">
             <div id="why_choose_content" class="content_width">
                 <div id="why_choose_heading">
-                    <h2>Why choose SMARTY?</h2>
+                    <h2>Why choose SM4RTY?</h2>
                     <p>Let's keep it simple</p>
                 </div>
                 <div id="why_choose_cards">
                     <div class="why_choose_card">
                         <img src="assets/why01.svg" alt="">
-                        <h4>Commitment- free SIM plans</h4>
-                        <p>1 month plans. No contracts, no credit checks and no surprises at the end of the month. Cancel or change plans anytime. Pay in advance and enjoy the flexibility.</p>
+                        <h4 class="why_card_title">Commitment- free SIM plans</h4>
+                        <p class="why_card_text">1 month plans. No contracts, no credit checks and no surprises at the end of the month. Cancel or change plans anytime. Pay in advance and enjoy the flexibility.</p>
                     </div>
                     <div class="why_choose_card">
                         <img src="assets/why02.svg" alt="">
-                        <h4>Add-ons that never expire</h4>
-                        <p>If you run out of data, add-ons are £1 per GB - the same as it costs on our Data discount plans. Buy them from your dashboard and keep them until you use every MB.</p>
+                        <h4 class="why_card_title">Add-ons that never expire</h4>
+                        <p class="why_card_text">If you run out of data, add-ons are £1 per GB - the same as it costs on our Data discount plans. Buy them from your dashboard and keep them until you use every MB.</p>
                     </div>
                     <div class="why_choose_card">
                         <img src="assets/why03.svg" alt="">
-                        <h4>Truly unlimited calls & texts</h4>
-                        <p>To standard UK landlines and mobiles, and roaming within EU countries. Call and text your friends and family as much as you want. No catch.</p>
+                        <h4 class="why_card_title">Truly unlimited calls & texts</h4>
+                        <p class="why_card_text">To standard UK landlines and mobiles, and roaming within EU countries. Call and text your friends and family as much as you want. No catch.</p>
                     </div>
                     <div class="why_choose_card">
                         <img src="assets/why04.svg" alt="">
-                        <h4>Keep your number</h4>
-                        <p>Simply text 'PAC' to 65075 to get a code valid for 30 days. We’ll walk you through steps to enter this code to transfer the phone number you want to keep.</p>
+                        <h4 class="why_card_title">Keep your number</h4>
+                        <p class="why_card_text">Simply text 'PAC' to 65075 to get a code valid for 30 days. We’ll walk you through steps to enter this code to transfer the phone number you want to keep.</p>
                     </div>
                 </div>
             </div>
@@ -212,14 +228,14 @@
             <div id="group_plan_content" class="content_width">
                 <div id="group_plan_left">
                     <img src="assets/party.svg" alt="">
-                    <button></button>
+                    <button>Learn more</button>
                 </div>
                 <div id="group_plan_right">
                     <h2>Save 10% on every SIM with a Group plan</h2>
-                    <div>
-                        <p>Whether you’re bringing your family accounts together or adding an extra SIM for your tablet, get a SMARTY Group plan and start saving.</p>
-                        <p><img src="assets/why04.svg" alt="">Manage usage and payments for just 2 plans or up to a total of 8.</p>
-                        <p><img src="assets/why04.svg" alt="">Save money, time, and stay flexible.</p>
+                    <div id="group_right_content">
+                        <p id="group_right_text">Whether you’re bringing your family accounts together or adding an extra SIM for your tablet, get a SM4RTY Group plan and start saving.</p>
+                        <p class="group_right_text"><img src="assets/why04.svg" alt="">Manage usage and payments for just 2 plans or up to a total of 8.</p>
+                        <p class="group_right_text"><img src="assets/why04.svg" alt="">Save money, time, and stay flexible.</p>
                     </div>
                 </div>
             </div>
@@ -228,11 +244,11 @@
         <!-- Get money back section ----------------------------------------------------------------------------- -->
         <div id="get_money_back_section" class="section">
             <div id="money_back_content" class="content_width">
-                <div>
+                <div id="money_back_left">
                     <h2>Get money back with our data discount plans</h2>
-                    <p>Check out our exclusive <span id="text_blue">data discount plans</span> and get money back for unused data at the end of <span id="text_yellow">every</span> month.</p>
+                    <h4 id="money_left_text">Check out our exclusive <span id="text_blue">data discount plans</span> and get money back for unused data at the end of <span id="text_yellow">every</span> month.</h4>
                 </div>
-                <div>
+                <div id="money_back_right">
                     <img src="assets/money_back.png" alt="">
                     <button id="money_back_button">View our data discount plans</button>
                 </div>
@@ -246,46 +262,64 @@
                 <div id="questions_container">
                     <div id="questions_left">
                         <div class="question">
-                            <button>How's the coverage? <img src="" alt="question_arrow down"></button>
-                            <p>SMARTY connects to 4G and 3G network wherever it can. SMARTY is not compatible with 2G handsets. <a href="">Check our coverage</a></p>
+                            <button><h4>How's the coverage?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>SM4RTY connects to 4G and 3G network wherever it can. SM4RTY is not compatible with 2G handsets. </p></span> 
+                            <span><a href="" class="question_link">Check our coverage</a></span>
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>How can I keep my number? <img src="" alt="question_arrow down"></button>
-                            <p>Simply contact your previous network provider or text 'PAC' to 65075 to get a code valid for 30 days. This won’t disrupt your service. We’ll walk you through steps to enter this code to transfer the phone number you want to keep. <a href="">Read more about switching</a></p>
+                            <button><h4>How can I keep my number?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>Simply contact your previous network provider or text 'PAC' to 65075 to get a code valid for 30 days. This won’t disrupt your service. We’ll walk you through steps to enter this code to transfer the phone number you want to keep. </p></span> 
+                            <span><a href="" class="question_link">Read more about switching</a></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>How much do add-ons cost? <img src="" alt="question_arrow down"></button>
-                            <p>If you run out of data, data add-ons are £1 per GB - the same as it costs on our Data discount plans. To call an 084 or 087 number you can add an "Out of plan" add-on in £5 increments. Add-ons don’t expire. <a href="">Read more about add-ons</a></p>
+                            <button><h4>How much do add-ons cost?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>If you run out of data, data add-ons are £1 per GB - the same as it costs on our Data discount plans. To call an 084 or 087 number you can add an "Out of plan" add-on in £5 increments. Add-ons don’t expire. </p></span> 
+                            <span><a href="" class="question_link">Read more about add-ons</a></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>Can I tether while roaming? <img src="" alt="question_arrow down"></button>
-                            <p>Yes. If you’re travelling in the EU, everything works like home. Data comes out of your monthly allowance or data add-ons. Please see our price guide for information on our Fair Use Policy. <a href="">Outside the EU, you need to add an “Out of plan” add-on. See the prices where you’re going.</a></p>
+                            <button><h4>Can I tether while roaming?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>Yes. If you’re travelling in the EU, everything works like home. Data comes out of your monthly allowance or data add-ons. Please see our price guide for information on our Fair Use Policy.</p></span> 
+                            <span><p> <a href="" class="question_link">Outside the EU, you need to add an “Out of plan” add-on. See the prices where you’re going.</a></p></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>Do all plans get money back? <img src="" alt="question_arrow down"></button>
-                            <p>No. Only Data Discount plans get money back for unused data. Look for the “Money back” icon on Data Discount plans. </p>
+                            <button><h4>Do all plans get money back?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>No. Only Data Discount plans get money back for unused data. Look for the “Money back” icon on Data Discount plans. </p></span> 
+                            <hr>
                         </div>
                     </div>
+
                     <div id="questions_right">
                         <div class="question">
-                            <button>How can I contact you? <img src="" alt="question_arrow down"></button>
-                            <p><a href="">Check out our contact us page</a> for further information.</p>
+                            <button><h4>How can I contact you?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p><a href="" class="question_link">Check out our contact us page</a> for further information.</p></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>How does calling abroad work? <img src="" alt="question_arrow down"></button>
-                            <p>You can now use SMARTY to make calls to other countries from the UK. International calls and texts are taken from your “Out of plan” add-ons. <a href="">See the prices where you want to call</a></p>
+                            <button><h4>How does calling abroad work?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>You can now use SM4RTY to make calls to other countries from the UK. International calls and texts are taken from your “Out of plan” add-ons. </p></span> 
+                            <span><a href="" class="question_link">See the prices where you want to call</a></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>Can I use my plan when I travel? <img src="" alt="question_arrow down"></button>
-                            <p>You can now use your SMARTY plan abroad. In the EU it works like normal up to 20GB. Outside the EU, or to call internationally, you need to add an “Out of plan” add-on. <a href="">See the prices where you're going</a></p>
+                            <button><h4>Can I use my plan when I travel?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>You can now use your SM4RTY plan abroad. In the EU it works like normal up to 20GB. Outside the EU, or to call internationally, you need to add an “Out of plan” add-on. </p></span> 
+                            <span><a href="" class="question_link">See the prices where you're going</a></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>How can I leave SMARTY? <img src="" alt="question_arrow down"></button>
-                            <p>Don’t forget, you can always <a href="">pause your plan temporarily</a> if you’re unsure about leaving. Here are details on <a href="">how to leave SMARTY</a> . We’re sad to see you go. If there’s anything we can do to help or learn from, please don’t hesitate to contact our customer support team.</p>
+                            <button><h4>How can I leave SM4RTY?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>Don’t forget, you can always <a href="" class="question_link">pause your plan temporarily</a> if you’re unsure about leaving. Here are details on <a href="" class="question_link">how to leave SM4RTY</a> . We’re sad to see you go. If there’s anything we can do to help or learn from, please don’t hesitate to contact our customer support team.</p></span> 
+                            <hr>
                         </div>
                         <div class="question">
-                            <button>Can I read more on pricing? <img src="" alt="question_arrow down"></button>
-                            <p>Everything you need to know about our: prices, discounts, offers and add-ons if you’re a customer of ours. <a href="">See our price guide</a></p>
+                            <button><h4>Can I read more on pricing?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <span><p>Everything you need to know about our: prices, discounts, offers and add-ons if you’re a customer of ours. </p></span> 
+                            <span><a href="" class="question_link">See our price guide</a></span> 
+                            <hr>
                         </div>
                     </div>
                 </div>
@@ -352,16 +386,16 @@
         </div>
 
         <div id="footer_social" class="content_width">
-            <p>Follow SMARTY</p>
+            <p>Follow SM4RTY</p>
             <a><img src="" alt="facebook link"></a>
             <a><img src="" alt="twitter link"></a>
         </div>
 
         <div id="footer_terms" class="content_width">
-            <p>© 2021 All rights reserved. SMARTY.</p>
-            <a>smarty.co.uk</a>
-            <p>SMARTY is a service that’s just for consumers and is only intended for personal use.</p>
-            <p>SMARTY is a trading name of Hutchison 3G UK Limited</p>
+            <p>© 2021 All rights reserved. SM4RTY.</p>
+            <a>sm4rty.co.uk</a>
+            <p>SM4RTY is a service that’s just for consumers and is only intended for personal use.</p>
+            <p>SM4RTY is a trading name of Hutchison 3G UK Limited</p>
             <p>Registered office: Hutchison 3G UK Limited, Great Brighams Mead, Vastern Road, Reading, Berkshire, RG1 8DJ</p>
             <p>Registered in England & Wales Number 03885486</p>
             <p>VAT Registration Number 760 7292 22</p>

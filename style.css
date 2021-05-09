@@ -13,7 +13,7 @@
         Plans cards
         All plans
     Trustpilot_section
-    Why_choose_smarti_section
+    Why_choose_sm4rty_section
     Group_plan_section
     Get_money_back_section
     Faq_section
@@ -47,14 +47,12 @@
     font-family: 'Kollektif';
     margin: 0;
     padding: 0;
-    /* color: white; */
 }
 h2, h3, h4, p, a {
     color: white;
 }
 
 .section {
-    outline: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,8 +61,6 @@ h2, h3, h4, p, a {
 
 .content_width {
     width: 940px;
-    outline: 1px solid magenta;
-    
 }
 h2 {
     font-size: 46px;
@@ -72,14 +68,15 @@ h2 {
 h3 {
     font-size: 34px;
 }
+h4 {
+    font-size: 24px;
+}
 a, a:visited {
     text-decoration: none;
     color: white;
 }
 
 img {
-    border: 1px solid red;
-    background: magenta;
     width: 50px;
     max-height: 200px;
 }
@@ -109,7 +106,6 @@ img {
 }
 
 #navbar_logo_link {
-    /* outline: 1px solid chartreuse; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,7 +120,6 @@ img {
 }
 
 #sub_nav {
-    /* outline: 1px solid chartreuse; */
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -132,7 +127,6 @@ img {
 }
 
 #nav_links {
-    /* outline: 1px solid chartreuse; */
     display: flex;
     font-size: 1rem;
 }
@@ -141,7 +135,6 @@ img {
 }
 
 #user_links {
-    /* outline: 1px solid chartreuse; */
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -176,6 +169,7 @@ img {
     align-items: center;
 }
 
+/* Hero banner ========================================================================== */
 #hero_banner {
     display: flex;
     justify-content: space-between;
@@ -221,7 +215,6 @@ img {
 }
 #hero_view_all_img {
     background: var(--yellow);
-    /* align-self: flex-end; */
 }
 #hero_view_all_img > img {
     width: 46px;
@@ -233,6 +226,7 @@ img {
     width: 192px;
 }
 
+/* App ribbon ================================================================ */
 #app_ribbon {
     background: var(--gray_two);
     min-height: 10vh;
@@ -253,8 +247,8 @@ img {
     height: 33px;
 }
 
+/* Plans cards =========================================================================== */
 #plans {
-    background: var(--gray_two);
     min-height: 10vh;
     margin-bottom: 5vh;
 }
@@ -313,7 +307,7 @@ img {
     border-radius: 0 0 3px 3px;
 }
 .card_bottom > button {
-    color: var(--gray_text);    /* TODO: fix the color */
+    color: var(--gray_text);
     font-size: 14px;
     font-weight: 700;
     padding: 18px 24px;
@@ -363,39 +357,164 @@ img {
     display: flex;
 }
 
+/* All plans =============================================================================== */
+#all_plans_heading {
+    padding: 10px 24px;
+    background: var(--gray_two);
+}
+#all_plans_content {
+    height: 221px;
+    padding: 24px 16px 16px 16px;
+}
+#include_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 16px 0;
+}
+.include_list_item {
+    width: 33%;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.include_list_item > img {
+    width: 15px;
+    margin: 5px 8px 0 0;
+}
+#wifi_banner {
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+#wifi_all_plans {
+    display: flex;
+    align-items: center;
+}
+#wifi_all_plans > img {
+    width: 33px;
+}
+
 /* =========================================================================================
     Trustpilot_section
 ========================================================================================= */
 #trustpilot_section {
     background: var(--gray_two);
-    min-height: 10vh;
+    height: 220px;
     display: flex;
     justify-content: center;
 }
-#trust_left {
-    outline: 1px solid chartreuse;
-}
-#trust_right {
-    outline: 1px solid chartreuse;
-}
-#trust_reviews {
-    outline: 1px solid chartreuse;
+#trustpilot {
     display: flex;
+    height: 100%;
+    padding: 32px 0 48px 0;
+}
+
+#trust_left {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 19px;
+}
+
+#trust_img {
+    width: 162px;
+}
+#trust_logo {
+    width: 106px;
+}
+
+#trust_right {
+    width: 100%;
+}
+#trust_reviews_container {
+    display: flex;
+    height: 120px;
+}
+#reviews {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.review {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 10px 20px;
+}
+.review_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.trust_review_img {
+    width: 100px;
+}
+.review_text {
+    font-size: 12px;
+}
+.review_name, .review_date {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.review_arrows {
+    width: 24px;
+    height: 24px;
+    margin: auto 0 24px 0;
+}
+#trust_favorites {
+    margin-left: 44px;
 }
 
 /* =========================================================================================
-    Why_choose_smarti_section
+    Why_choose_sm4rty_section
 ========================================================================================= */
-#why_choose_smarti_section {
+#why_choose_sm4rty_section {
     background: var(--gray_one);
-    min-height: 10vh;
+    height: 695px;
 }
+#why_choose_content {
+    height: 100%;
+    padding: 60px 0 100px 0;
+}
+
+#why_choose_heading > h2 {
+    margin-bottom: 8px;
+}
+#why_choose_heading > p {
+    margin-bottom: 24px;
+}
+
 #why_choose_cards {
     display: flex;
+    justify-content: space-between;
+    height: 424px;
 }
 .why_choose_card {
-    outline: 1px solid blue;
     background: #56585C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 16px 16px 16px;
+    width: 220px;
+}
+.why_choose_card > img {
+    width: 100px;
+    margin: 0 48px 30px 48px;
+}
+.why_card_title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+.why_card_text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 /* =========================================================================================
@@ -403,7 +522,59 @@ img {
 ========================================================================================= */
 #group_plan_section {
     background: var(--gray_two);
-    min-height: 10vh;
+    height: 455px;
+}
+#group_plan_content {
+    height: 100%;
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#group_plan_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 238px;
+}
+#group_plan_left > img {
+    width: 300px;
+}
+#group_plan_left > button {
+    border: none;
+    background: var(--turquoize_text);
+    padding: 14px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gray_text);
+    border-radius: 3px;
+}
+
+#group_plan_right {
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+}
+#group_plan_right > h2 {
+    margin-bottom: 43px;
+}
+#group_plan_right_content {
+    padding-bottom: 32px;
+}
+#group_right_text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.group_right_text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.group_right_text > img {
+    width: 15px;
+    margin: 5px 8px 0 0;
 }
 
 /* =========================================================================================
@@ -411,7 +582,26 @@ img {
 ========================================================================================= */
 #get_money_back_section {
     background: var(--gray_one);
-    min-height: 10vh;
+    height: 371px;
+}
+#money_back_content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 60px 0;
+}
+
+#money_back_left {
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+}
+#money_back_left > h2 {
+    margin-bottom: 43px;
+}
+#money_left_text {
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 #text_blue {
     color: var(--turquoize_text);
@@ -419,8 +609,25 @@ img {
 #text_yellow {
     color: var(--yellow);
 }
+
+#money_back_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 251px;
+}
+#money_back_right > img {
+    width: 300px;
+}
 #money_back_button {
+    border: none;
     background: var(--turquoize_text);
+    padding: 14px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gray_text);
+    border-radius: 3px;
 }
 
 /* =========================================================================================
@@ -428,14 +635,46 @@ img {
 ========================================================================================= */
 #faq_section {
     background: var(--gray_one);
-    min-height: 10vh;
+    
 }
 #questions_container {
     display: flex;
+    
+}
+#questions_left {
+    padding-right: 29px;
+}
+#questions_right {
+    padding-left: 29px;
 }
 .question > button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     background: var(--gray_one);
     color: var(--turquoize_text);
+    border: none;
+    margin: 16px 0 9px 0;
+}
+.question > button > h4 {
+    color: var(--turquoize_text);
+}
+.question > button > img {
+    color: var(--turquoize_text);
+    width: 30px;
+}
+.question > span {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.question_link {
+    font-size: 18px;
+    text-decoration: underline;
+}
+hr {
+    margin: 8px 0;
 }
 
 /* =========================================================================================
