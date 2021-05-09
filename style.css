@@ -84,13 +84,14 @@ img {
     --gray_one: #424449;
     --gray_two: #333539;
     --gray_three: #56585C;
+    --gray_four: #959595;
     --gray_text: #3a3c41;
     --yellow: #FFD67C;
     --blue: #B3CDE7;
     --green: #CDDF99;
     --orange: #FF9569;
     --turquoize: #92E9F6;
-    --turquoize_text: #8ED6C9;
+    --turquoize_text: rgb(142, 214, 201);
     --violet: #B8AEF1;
 }
 
@@ -174,8 +175,8 @@ img {
     display: flex;
     justify-content: space-between;
     background: var(--gray_two);
-    min-height: 10vh;
-    margin: 5vh 0vh;
+    height: 320px;
+    margin: 24px 0;
     padding: 40px;
 }
 #hero_left {
@@ -229,11 +230,10 @@ img {
 /* App ribbon ================================================================ */
 #app_ribbon {
     background: var(--gray_two);
-    min-height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5vh;
+    margin: 10px 0 60px 0;
     padding: 16px 24px;
     font-size: 18px;
     font-weight: 700;
@@ -642,9 +642,11 @@ img {
     
 }
 #questions_left {
+    width: 50%;
     padding-right: 29px;
 }
 #questions_right {
+    width: 50%;
     padding-left: 29px;
 }
 .question > button {
@@ -654,7 +656,7 @@ img {
     background: var(--gray_one);
     color: var(--turquoize_text);
     border: none;
-    margin: 16px 0 9px 0;
+    margin: 40px 0 9px 0;
 }
 .question > button > h4 {
     color: var(--turquoize_text);
@@ -663,18 +665,37 @@ img {
     color: var(--turquoize_text);
     width: 30px;
 }
-.question > span {
-    display: inline-block;
+
+.answer {
+    display: none;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 8px;
 }
-.question_link {
+.answer.visible {
+    /* visibility: visible; */
+    display: flex;
+    flex-direction: column;
+    /* display: inline-block; */
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.answer.visible > .span {
+    margin-bottom: 8px;
+    /* background: chartreuse;
+    outline: 1px solid red; */
+}
+.answer_link {
     font-size: 18px;
     text-decoration: underline;
 }
 hr {
     margin: 8px 0;
+    border-top: 1px solid var(--gray_four);
+    border-bottom: none;
 }
 
 /* =========================================================================================

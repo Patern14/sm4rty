@@ -261,64 +261,84 @@
                 <h2>FAQs</h2>
                 <div id="questions_container">
                     <div id="questions_left">
-                        <div class="question">
-                            <button><h4>How's the coverage?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>SM4RTY connects to 4G and 3G network wherever it can. SM4RTY is not compatible with 2G handsets. </p></span> 
-                            <span><a href="" class="question_link">Check our coverage</a></span>
+                        <div class="question" >
+                            <button onclick="toggleVisibility(event)"><h4>How's the coverage?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">SM4RTY connects to 4G and 3G network wherever it can. SM4RTY is not compatible with 2G handsets. </span> 
+                                <span class="span"><a href="" class="answer_link">Check our coverage</a></span>
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>How can I keep my number?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>Simply contact your previous network provider or text 'PAC' to 65075 to get a code valid for 30 days. This won’t disrupt your service. We’ll walk you through steps to enter this code to transfer the phone number you want to keep. </p></span> 
-                            <span><a href="" class="question_link">Read more about switching</a></span> 
+                            <button onclick="toggleVisibility(event)"><h4>How can I keep my number?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">Simply contact your previous network provider or text 'PAC' to 65075 to get a code valid for 30 days. This won’t disrupt your service. We’ll walk you through steps to enter this code to transfer the phone number you want to keep.</span> 
+                                <span class="span"><a href="" class="answer_link">Read more about switching</a></span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>How much do add-ons cost?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>If you run out of data, data add-ons are £1 per GB - the same as it costs on our Data discount plans. To call an 084 or 087 number you can add an "Out of plan" add-on in £5 increments. Add-ons don’t expire. </p></span> 
-                            <span><a href="" class="question_link">Read more about add-ons</a></span> 
+                            <button onclick="toggleVisibility(event)"><h4>How much do add-ons cost?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">If you run out of data, data add-ons are £1 per GB - the same as it costs on our Data discount plans. To call an 084 or 087 number you can add an "Out of plan" add-on in £5 increments. Add-ons don’t expire.</span> 
+                                <span class="span"><a href="" class="answer_link">Read more about add-ons</a></span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>Can I tether while roaming?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>Yes. If you’re travelling in the EU, everything works like home. Data comes out of your monthly allowance or data add-ons. Please see our price guide for information on our Fair Use Policy.</p></span> 
-                            <span><p> <a href="" class="question_link">Outside the EU, you need to add an “Out of plan” add-on. See the prices where you’re going.</a></p></span> 
+                            <button onclick="toggleVisibility(event)"><h4>Can I tether while roaming?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">Yes. If you’re travelling in the EU, everything works like home. Data comes out of your monthly allowance or data add-ons. Please see our price guide for information on our Fair Use Policy.</span> 
+                                <span class="span"><a href="" class="answer_link">Outside the EU, you need to add an “Out of plan” add-on. See the prices where you’re going.</a></span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>Do all plans get money back?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>No. Only Data Discount plans get money back for unused data. Look for the “Money back” icon on Data Discount plans. </p></span> 
+                            <button onclick="toggleVisibility(event)"><h4>Do all plans get money back?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">No. Only Data Discount plans get money back for unused data. Look for the “Money back” icon on Data Discount plans.</span> 
+                            </div>
                             <hr>
                         </div>
                     </div>
 
                     <div id="questions_right">
                         <div class="question">
-                            <button><h4>How can I contact you?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p><a href="" class="question_link">Check out our contact us page</a> for further information.</p></span> 
+                            <button onclick="toggleVisibility(event)"><h4>How can I contact you?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span"><a href="" class="answer_link">Check out our contact us page</a> for further information.</span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>How does calling abroad work?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>You can now use SM4RTY to make calls to other countries from the UK. International calls and texts are taken from your “Out of plan” add-ons. </p></span> 
-                            <span><a href="" class="question_link">See the prices where you want to call</a></span> 
+                            <button onclick="toggleVisibility(event)"><h4>How does calling abroad work?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">You can now use SM4RTY to make calls to other countries from the UK. International calls and texts are taken from your “Out of plan” add-ons.</span> 
+                                <span class="span"><a href="" class="answer_link">See the prices where you want to call</a></span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>Can I use my plan when I travel?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>You can now use your SM4RTY plan abroad. In the EU it works like normal up to 20GB. Outside the EU, or to call internationally, you need to add an “Out of plan” add-on. </p></span> 
-                            <span><a href="" class="question_link">See the prices where you're going</a></span> 
+                            <button onclick="toggleVisibility(event)"><h4>Can I use my plan when I travel?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">You can now use your SM4RTY plan abroad. In the EU it works like normal up to 20GB. Outside the EU, or to call internationally, you need to add an “Out of plan” add-on.</span> 
+                                <span class="span"><a href="" class="answer_link">See the prices where you're going</a></span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>How can I leave SM4RTY?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>Don’t forget, you can always <a href="" class="question_link">pause your plan temporarily</a> if you’re unsure about leaving. Here are details on <a href="" class="question_link">how to leave SM4RTY</a> . We’re sad to see you go. If there’s anything we can do to help or learn from, please don’t hesitate to contact our customer support team.</p></span> 
+                            <button onclick="toggleVisibility(event)"><h4>How can I leave SM4RTY?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">Don’t forget, you can always <a href="" class="answer_link">pause your plan temporarily</a> if you’re unsure about leaving. Here are details on <a href="" class="answer_link">how to leave SM4RTY</a> . We’re sad to see you go. If there’s anything we can do to help or learn from, please don’t hesitate to contact our customer support team.</span> 
+                            </div>
                             <hr>
                         </div>
                         <div class="question">
-                            <button><h4>Can I read more on pricing?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
-                            <span><p>Everything you need to know about our: prices, discounts, offers and add-ons if you’re a customer of ours. </p></span> 
-                            <span><a href="" class="question_link">See our price guide</a></span> 
+                            <button onclick="toggleVisibility(event)"><h4>Can I read more on pricing?</h4>  <img src="assets/down-chevron.png" alt="question_arrow down"></button>
+                            <div class="answer">
+                                <span class="span">Everything you need to know about our: prices, discounts, offers and add-ons if you’re a customer of ours.</span> 
+                                <span class="span"><a href="" class="answer_link">See our price guide</a></span> 
+                            </div>
                             <hr>
                         </div>
                     </div>
