@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 456" width="456" height="456">
+	<title>facebook-svg</title>
+	<defs>
+		<image  width="456" height="456" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcgAAAHIAQMAAADwb+ipAAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAABSklEQVR4nO3Zuw2DMBRG4SAKSkbwKB4NRmMURkiZIspNkRcyirB/IRsn5/RfgXxtyfh0IiIiIiIiIqLseXuU6lozUZoqO1kOqmxMlb0svSxNla0se1l6WZoqG1l2suxl6WTpZWmqbGTZyrKTpZOll+VQQJoqG1m2suxk2ReQTpZelkMBaaoMRyiHDIcvhwzHNl6Gw5dDuqqkLyCHAjKEh5ar7XloudrYPypXx1A1MtY8Whx9Z1mOqrylwYW8yjLxMxdyTpTuLSdZjrJMhB+Zuih7yNTl/MhLAZk6QnvI+U/khEQikUgkEolEIpG7SvvS9j0UWZPcvuMj88vtvyDImuSMPKCckD8lR+QB5SZE1iQjnrCQ2WXE8yCyIhnx9FpCPnMvMkUTJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikeXkHZNoNlRWA8DhAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0" />
+</svg>
