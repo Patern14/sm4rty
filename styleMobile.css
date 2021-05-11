@@ -1,5 +1,5 @@
 /* =============================================================================
-    SUMMARY - Wide screens / Desktop
+    SUMMARY - Mobile version
 
     Breakpoint: 767- / 768 => 980 / 980+
 
@@ -41,6 +41,11 @@
     font-display: fallback;
   }
 
+  body {
+      border: 2px solid magenta;
+    width: 100vw;
+  }
+
 * {
     box-sizing: border-box;
     /* font-family: 'Roboto', sans-serif; */
@@ -60,7 +65,7 @@ h2, h3, h4, p, a {
 }
 
 .content_width {
-    width: 940px;
+    width: 100%;
 }
 h2 {
     font-size: 46px;
@@ -81,8 +86,11 @@ img {
     max-height: 200px;
 }
 :root {
-    --gray_one: #424449;
-    --gray_two: #333539;
+    --gray_one: #3a71fb;
+    --gray_two: #254fa1;
+
+    /* --gray_one: #424449;
+    --gray_two: #333539; */
     --gray_three: #56585C;
     --gray_four: rgb(149, 149, 149);
     --gray_text: #3a3c41;
@@ -121,12 +129,12 @@ img {
 }
 
 #sub_nav {
-    display: flex;
+    display: none;
     justify-content: space-between;
     width: 100%;
     font-weight: 700;
 }
-
+/* 
 #nav_links {
     display: flex;
     font-size: 1rem;
@@ -157,7 +165,7 @@ img {
     background: var(--yellow);
     border-radius: 3px;
     color: var(--gray_two);
-}
+} */
 
 /* =========================================================================================
     Simple_plans_section
@@ -173,9 +181,10 @@ img {
 /* Hero banner ========================================================================== */
 #hero_banner {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background: var(--gray_two);
-    height: 320px;
+    /* height: 320px; */
     margin: 24px 0;
     padding: 40px;
 }
@@ -271,13 +280,14 @@ img {
 
 #plans_cards {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .plan_card {
     color: var(--gray_text);
     margin: 0px 0.5rem 1rem 0.5rem;
-    width: 31.5%;
+    /* width: 31.5%; */
     height: 309px;
 }
 
@@ -363,17 +373,18 @@ img {
     background: var(--gray_two);
 }
 #all_plans_content {
-    height: 221px;
+    /* height: 221px; */
     padding: 24px 16px 16px 16px;
 }
 #include_list {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 16px 0;
 }
 .include_list_item {
-    width: 33%;
+    /* width: 33%; */
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -428,6 +439,7 @@ img {
 }
 
 #trust_right {
+    display: none;
     width: 100%;
 }
 #trust_reviews_container {
@@ -475,10 +487,10 @@ img {
 ========================================================================================= */
 #why_choose_sm4rty_section {
     background: var(--gray_one);
-    height: 695px;
+    /* height: 695px; */
 }
 #why_choose_content {
-    height: 100%;
+    /* height: 100%; */
     padding: 60px 0 100px 0;
 }
 
@@ -491,8 +503,9 @@ img {
 
 #why_choose_cards {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    height: 424px;
+    /* height: 424px; */
 }
 .why_choose_card {
     background: #56585C;
@@ -501,7 +514,7 @@ img {
     align-items: center;
     justify-content: center;
     padding: 25px 16px 16px 16px;
-    width: 220px;
+    /* width: 220px; */
 }
 .why_choose_card > img {
     width: 100px;
@@ -522,20 +535,21 @@ img {
 ========================================================================================= */
 #group_plan_section {
     background: var(--gray_two);
-    height: 455px;
+    /* height: 455px; */
 }
 #group_plan_content {
-    height: 100%;
+    /* height: 100%; */
     padding: 60px 0 60px 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 #group_plan_left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px;
-    height: 238px;
+    /* width: 300px; */
+    /* height: 238px; */
 }
 #group_plan_left > img {
     width: 300px;
@@ -553,7 +567,7 @@ img {
 #group_plan_right {
     display: flex;
     flex-direction: column;
-    width: 592px;
+    /* width: 592px; */
 }
 #group_plan_right > h2 {
     margin-bottom: 43px;
@@ -582,19 +596,20 @@ img {
 ========================================================================================= */
 #get_money_back_section {
     background: var(--gray_one);
-    height: 371px;
+    /* height: 371px; */
 }
 #money_back_content {
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    flex-direction: column;
+    /* height: 100%; */
     padding: 60px 0;
 }
 
 #money_back_left {
     display: flex;
     flex-direction: column;
-    width: 592px;
+    /* width: 592px; */
 }
 #money_back_left > h2 {
     margin-bottom: 43px;
@@ -614,8 +629,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px;
-    height: 251px;
+    /* width: 300px; */
+    /* height: 251px; */
 }
 #money_back_right > img {
     width: 300px;
@@ -639,16 +654,16 @@ img {
 }
 #questions_container {
     display: flex;
-    
+    flex-direction: column;
 }
 #questions_left {
-    width: 50%;
-    padding-right: 29px;
+    /* width: 50%; */
+    /* padding-right: 29px; */
     margin-bottom: 30px;
 }
 #questions_right {
-    width: 50%;
-    padding-left: 29px;
+    /* width: 50%; */
+    /* padding-left: 29px; */
     margin-bottom: 30px;
 }
 .question > button {
@@ -742,8 +757,8 @@ hr {
     height: 65px;
 }
 #awards_container > img {
-    width: 150px;
-    height: 100%;
+    /* width: 150px; */
+    /* height: 100%; */
 }
 
 #featured_in_container {
@@ -772,13 +787,14 @@ hr {
 
 #footer_inner {
     display: flex;
+    flex-direction: column;
     font-size: 18px;
     padding-top: 40px;
 }
 .inner_column {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    /* width: 25%; */
 }
 .inner_column > a {
     margin: 8px 0;
