@@ -41,8 +41,12 @@
     font-display: fallback;
   }
 
+  html {
+      /* border: 2px solid green; */
+      width: 100vw;
+  }
   body {
-      border: 2px solid magenta;
+    border: 2px solid magenta;
     width: 100vw;
   }
 
@@ -65,32 +69,32 @@ h2, h3, h4, p, a {
 }
 
 .content_width {
-    width: 100%;
+    width: 95vw;
 }
 h2 {
-    font-size: 46px;
-}
-h3 {
     font-size: 34px;
 }
-h4 {
+h3 {
     font-size: 24px;
+}
+h4 {
+    font-size: 16px;
 }
 a, a:visited {
     text-decoration: none;
     color: #ffffff;
 }
 
-img {
+/* img {
     width: 50px;
     max-height: 200px;
-}
+} */
 :root {
-    --gray_one: #3a71fb;
-    --gray_two: #254fa1;
+    /* --gray_one: #3a71fb;
+    --gray_two: #254fa1; */
 
-    /* --gray_one: #424449;
-    --gray_two: #333539; */
+    --gray_one: #424449;
+    --gray_two: #333539;
     --gray_three: #56585C;
     --gray_four: rgb(149, 149, 149);
     --gray_text: #3a3c41;
@@ -103,11 +107,15 @@ img {
     --violet: #B8AEF1;
 }
 
+.mobile_hidden {
+    display: none;
+}
+
 /* =========================================================================================
     Navbar
 ========================================================================================= */
 #navbar_container {
-    height: 7vh;
+    height: 8vh;
     background: var(--gray_two);
 }
 #navbar_inner {
@@ -172,7 +180,7 @@ img {
 ========================================================================================= */
 #simple_plans_section {
     background: var(--gray_one);
-    min-height: 10vh;
+    /* min-height: 10vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,8 +189,9 @@ img {
 /* Hero banner ========================================================================== */
 #hero_banner {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
+    align-items: center;
     background: var(--gray_two);
     /* height: 320px; */
     margin: 24px 0;
@@ -240,20 +249,23 @@ img {
 #app_ribbon {
     background: var(--gray_two);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 10px 0 60px 0;
+    flex-wrap: wrap;
+    margin: 10px 0 30px 0;
     padding: 16px 24px;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
 }
 #our_app {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 #our_app > img {
-    width: 33px;
-    height: 33px;
+    width: 16px;
+    height: 16px;
 }
 
 /* Plans cards =========================================================================== */
@@ -491,10 +503,11 @@ img {
 }
 #why_choose_content {
     /* height: 100%; */
-    padding: 60px 0 100px 0;
+    padding: 30px 0 100px 0;
 }
 
 #why_choose_heading > h2 {
+    font-size: 24px;
     margin-bottom: 8px;
 }
 #why_choose_heading > p {
@@ -539,7 +552,7 @@ img {
 }
 #group_plan_content {
     /* height: 100%; */
-    padding: 60px 0 60px 0;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -603,7 +616,7 @@ img {
     justify-content: space-between;
     flex-direction: column;
     /* height: 100%; */
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 #money_back_left {
@@ -744,11 +757,11 @@ hr {
     min-height: 10vh;
 }
 #awards_content {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 #awards_content > h2 {
     text-align: center;
-    margin: 60px 0 34px 0;
+    margin: 30px 0 34px 0;
 }
 
 #awards_container {
@@ -765,11 +778,11 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 #featured_in_container > li {
     list-style-type: none;
-    width: 25%;
+    width: 65%;
     margin: 0 16px;
     padding: 8px 16px;
 }
