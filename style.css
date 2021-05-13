@@ -96,7 +96,8 @@ img {
 }
 
 .desktop_hidden {
-    display: hidden;
+    display: none;
+    background: chartreuse;
 }
 
 /* =========================================================================================
@@ -534,6 +535,9 @@ img {
     display: flex;
     justify-content: space-between;
 }
+#group_plan_content.desktop_hidden {
+    display: none;
+}
 #group_plan_left {
     display: flex;
     flex-direction: column;
@@ -621,7 +625,7 @@ img {
     width: 300px;
     height: 251px;
 }
-#money_back_right > img {
+#money_back_img {
     width: 300px;
 }
 #money_back_button {

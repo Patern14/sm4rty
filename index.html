@@ -229,7 +229,7 @@
 
         <!-- Group plan section --------------------------------------------------------------------------------- -->
         <div id="group_plan_section" class="section">
-            <div id="group_plan_content" class="content_width">
+            <div id="group_plan_content" class="content_width mobile_hidden">   <!-- Desktop -->
                 <div id="group_plan_left">
                     <img src="assets/party.svg" alt="">
                     <button>Learn more</button>
@@ -243,6 +243,21 @@
                     </div>
                 </div>
             </div>
+
+            <div id="group_plan_content" class="content_width desktop_hidden">  <!-- Mobile -->
+                <div id="group_plan_left">
+                    <h2>Save 10% on every SIM with a Group plan</h2>
+                    <img src="assets/party.svg" alt="">
+                </div>
+                <div id="group_plan_right">
+                    <div id="group_right_content">
+                        <p id="group_right_text">Whether you’re bringing your family accounts together or adding an extra SIM for your tablet, get a SM4RTY Group plan and start saving.</p>
+                        <p class="group_right_text"><img src="assets/why04.svg" alt="">Manage usage and payments for just 2 plans or up to a total of 8.</p>
+                        <p class="group_right_text"><img src="assets/why04.svg" alt="">Save money, time, and stay flexible.</p>
+                    </div>
+                    <button id="group_plan_button">Learn more</button>
+                </div>
+            </div>
         </div>
 
         <!-- Get money back section ----------------------------------------------------------------------------- -->
@@ -250,10 +265,11 @@
             <div id="money_back_content" class="content_width">
                 <div id="money_back_left">
                     <h2>Get money back with our data discount plans</h2>
+                    <img src="assets/money_back.png" alt="" id="money_back_img" class="desktop_hidden">
                     <h4 id="money_left_text">Check out our exclusive <span id="text_blue">data discount plans</span> and get money back for unused data at the end of <span id="text_yellow">every</span> month.</h4>
                 </div>
                 <div id="money_back_right">
-                    <img src="assets/money_back.png" alt="">
+                    <img src="assets/money_back.png" alt="" id="money_back_img" class="mobile_hidden">
                     <button id="money_back_button">View our data discount plans</button>
                 </div>
             </div>
