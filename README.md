@@ -5,7 +5,7 @@ Original website: https://smarty.co.uk/#plans
 The project: https://patern14.github.io/sm4rty/
 
 -------------------------------------------- Desktop versions -------------------------------------------
-<img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20171732.png" width="500" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20170147.png" width="500" />
+<img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20171732.png" width="48%" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20170147.png" width="48%" />
 
 <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20171824.png" width="500" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20170222.png" width="500" />
 
