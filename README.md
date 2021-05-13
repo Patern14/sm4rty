@@ -4,7 +4,7 @@ Original website: https://smarty.co.uk/#plans
 
 The project: https://patern14.github.io/sm4rty/
 
------------------------------------------------------------------ Desktop versions ----------------------------------------------------------
+-------------------------------------------- Desktop versions -------------------------------------------
 <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20171732.png" width="500" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20170147.png" width="500" />
 
 <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20171824.png" width="500" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20170222.png" width="500" />
@@ -21,7 +21,7 @@ The project: https://patern14.github.io/sm4rty/
 
 <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20172132.png" width="500" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_desktop/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20170447.png" width="500" />
 
----------------------------------------------------------------- Mobile versions ------------------------------------------------------------
+-------------------------------------- Mobile versions --------------------------------------
 
 <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_mobile/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20165522.png" width="240" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_mobile/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20165237.png" width="240" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Original_mobile/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20165650.png" width="240" /> <img src="https://github.com/Patern14/sm4rty/blob/master/Screenshots/Copy_mobile/Capture%20d%E2%80%99%C3%A9cran%202021-05-13%20165320.png" width="240" />
 
