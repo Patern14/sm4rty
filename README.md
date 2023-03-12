@@ -1,4 +1,4 @@
-# Reproduction of the Smarty.co.uk landing page.
+# Smarty.co.uk landing page replicate
 
 Original website: https://smarty.co.uk/#plans
 
